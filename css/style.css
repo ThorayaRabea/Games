@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+
+body{
+    background-color: #272b30;
+    font-family: "Nerko One", cursive;
+}
+.games header img{
+    max-height: 30vh;
+}
+.games .navbar h5 img{
+   max-width: 50px;
+  
+}
+.games .navbar h5{
+    color: #fff;
+}
+.bg-nav{
+    background-color: rgb(58, 73, 123) !important;
+} 
+ .games .navbar ul li a{
+    color: #fff !important;
+}
+.games .navbar ul li a:hover{
+    color: #09c !important;;
+}
+.nav-item .nav-link.active, .nav-item .nav-link:hover {
+    color: #09c !important;
+    transition: color 0.5s;
+}
+
+
+#rowBody{
+    background-color: #272b30;
+    width: 90%; 
+    margin: auto;
+}
+#footer{
+    font-size: .7rem;
+    padding-top: 6px;
+}
+.card{
+    background-color: #272b30;
+}
+#titleFree{
+    background-color: rgb(127, 127, 171);
+    font-size: .7rem;
+}
+.Parag{
+    color:#c3d2e4;
+}
+
+/*/////////////////// loading ////////////////////////////////////*/
+
+.loading {
+    position: fixed;
+    z-index: 9999;
+    inset: 0;
+    background-color: #272b30e3;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.loader {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    border-top: 4px solid #fff;
+    border-right: 4px solid transparent;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    position: relative;
+}
+@keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+  /* /////////////////////////////////////////// */
+  .discreption span{
+      font-size: .7rem;
+  }
